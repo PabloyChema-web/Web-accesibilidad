@@ -1,0 +1,45 @@
+/* ======================================
+   MODO NOCHE
+   Cumple WCAG 1.4.3 (Contraste mínimo AA)
+   Basado en estilos.css
+====================================== */
+@import url("estilos.css");
+
+:root {
+  --color-fondo: #0d1117;
+  --color-fondo-seccion: #161b22;
+  --color-principal: #58a6ff;
+  --color-secundario: #1f6feb;
+  --color-destacado: #ffcc00;
+  --color-texto: #e6edf3;
+}
+
+/* Ajustes generales */
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+}
+
+header, footer {
+  background-color: var(--color-fondo-seccion);
+  color: var(--color-destacado);
+}
+
+a {
+  color: var(--color-principal);
+}
+
+a:hover, a:focus {
+  color: var(--color-destacado);
+  text-decoration: underline;
+}
+
+table {
+  background-color: #1a1a1a;
+  border-color: #444;
+}
+
+th, td {
+  border-color: #555;
+}
+

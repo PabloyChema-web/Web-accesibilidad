@@ -1,0 +1,10 @@
+Bienvenidos a la Biblioteca Salud UA, un sitio web diseñado como una enciclopedia ilustrada de salud.
+En esta página podrás acceder a artículos sobre enfermedades, tratamientos y hábitos saludables, organizados por letras desde la A hasta la Z.
+Solo tienes que pulsar en cualquier letra del alfabeto para ver los temas de salud que comienzan con esa letra. Por ejemplo, la letra A te llevará a artículos sobre alergias o anemia.
+En la zona central encontrarás algunos temas destacados, como la faringitis o el enanismo, con una breve descripción y enlaces a fuentes fiables como MedlinePlus.
+También dispones de una sección de vídeos sobre salud y bienestar, donde puedes ampliar información de forma visual y sencilla.
+Aquí puedes contactar con nosotros, buscar información médica específica o incluso registrarte como usuario para recibir novedades.
+Otra sección muy útil son las tablas y mapas, donde encontrarás datos sobre enfermedades comunes, vitaminas y mapas interactivos del cuerpo y los alimentos saludables.
+Desde la barra lateral puedes acceder rápidamente a recursos, usar el buscador integrado o suscribirte por correo electrónico para mantenerte al día.
+La web cumple criterios de accesibilidad, cuenta con versión en modo noche, alto contraste y texto grande. Ha sido creada por Pablo Duarte Marín y José María López de Uralde dentro del proyecto de la Universidad de Alicante.
+Gracias por visitar la Biblioteca Salud UA. Te invitamos a explorar todos los recursos disponibles para cuidar tu salud y bienestar.

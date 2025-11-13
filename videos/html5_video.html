@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Vídeo HTML5 con subtítulos - Biblioteca Salud UA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+  <header>
+    <h1>Vídeo HTML5 con subtítulos</h1>
+    <p>Versión local del vídeo con subtítulos en español e inglés.</p>
+  </header>
+
+  <main style="text-align:center;">
+    <video width="720" controls>
+      <source src="../videos/video.mp4" type="video/mp4">
+      <track src="../videos/subtitulos_es.vtt" kind="subtitles" srclang="es" label="Español" default>
+      <track src="../videos/subtitulos_ingles.vtt" kind="subtitles" srclang="en" label="English">
+      Tu navegador no soporta el elemento vídeo.
+    </video>
+
+    <p>
+      <strong>Consejo:</strong> Activa los subtítulos desde el botón <b>CC</b> del reproductor.
+    </p>
+
+    <p><a href="../index.html">Volver al inicio</a></p>
+  </main>
+
+  <footer>
+    <p>© 2025 Biblioteca Salud UA</p>
+  </footer>
+</body>
+</html>

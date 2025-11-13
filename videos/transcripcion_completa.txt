@@ -1,0 +1,29 @@
+[00:00:00] AD: Se muestra la portada de la Biblioteca Salud UA.
+[00:00:02] Voz: Bienvenidos a la Biblioteca Salud UA, un sitio web diseñado como una enciclopedia ilustrada de salud.
+
+[00:00:09] Voz: En esta página podrás acceder a artículos sobre enfermedades, tratamientos y hábitos saludables, organizados por letras desde la A hasta la Z.
+[00:00:12] AD: En la pantalla se muestra el indice con las letras de la A a la Z.
+
+[00:00:17] Voz: Solo tienes que pulsar en cualquier letra del alfabeto para ver los temas de salud que comienzan con esa letra. Por ejemplo, la letra A te llevará a artículos sobre alergias o anemia.
+[00:00:20] AD: Se hace clic en la letra A y entramos para mostrar los artivuclos disponibles.
+
+[00:00:28] Voz: En la zona central encontrarás algunos temas destacados, como la faringitis o el enanismo, con una breve descripción y enlaces a fuentes fiables como MedlinePlus.
+[00:00:31] AD: Se muestra la zona central en la cual salen los articulos destacados de faringitis y enanismo.Entramos al enlace de MedlinePlus
+
+[00:00:39] Voz: También dispones de una sección de vídeos sobre salud y bienestar, donde puedes ampliar información de forma visual y sencilla.
+[00:00:41] AD: Se muestra en el indice el apartado de los videos.
+
+[00:00:47] Voz: Aquí puedes contactar con nosotros, buscar información médica específica o incluso registrarte como usuario para recibir novedades.
+[00:00:49] AD: Se muestra el apartado de los formularios.
+
+[00:00:55] Voz: Otra sección muy útil son las tablas y mapas, donde encontrarás datos sobre enfermedades comunes, vitaminas y mapas interactivos del cuerpo y los alimentos saludables.
+[00:00:58] AD: Se despliegan dos tablas o mapas para mostrar su funcionamiento.
+
+[00:01:06] Voz: Desde la barra lateral puedes acceder rápidamente a recursos, usar el buscador integrado o suscribirte por correo electrónico para mantenerte al día.
+[00:01:08] AD: El cursor se mueve hacia la barra lateral mostrando un buscador y un botón de suscripción.
+
+[00:01:16] Voz: La web cumple criterios de accesibilidad, cuenta con versión en modo noche, alto contraste y texto grande. Ha sido creada por Pablo Duarte Marín y José María López de Uralde dentro del proyecto de la Universidad de Alicante.
+[00:01:18] AD: Se muestra la forma de seleccionar los diferentes estilos.
+
+[00:01:37] Voz: Gracias por visitar la Biblioteca Salud UA. Te invitamos a explorar todos los recursos disponibles para cuidar tu salud y bienestar.
+[00:01:39] AD: El vídeo finaliza mostrando el final de la pagina principal.

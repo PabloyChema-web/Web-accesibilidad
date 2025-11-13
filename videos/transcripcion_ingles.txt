@@ -1,0 +1,10 @@
+Welcome to the UA Health Library, a website designed as an illustrated encyclopedia of health.
+On this page you can access articles about diseases, treatments, and healthy habits, organized by letters from A to Z.
+You just need to click on any letter of the alphabet to see health topics that begin with that letter. For example, the letter A will take you to articles about allergies or anemia.
+In the main area you’ll find some featured topics, such as pharyngitis or dwarfism, with a brief description and links to reliable sources like MedlinePlus.
+There is also a section with videos about health and well-being, where you can learn more visually and easily.
+Here you can contact us, search for specific medical information, or register as a user to receive updates.
+Another very useful section is the one for tables and maps, where you’ll find data about common diseases, vitamins, and interactive maps of the body and healthy foods.
+From the sidebar you can quickly access resources, use the built-in search engine, or subscribe by email to stay up to date.
+The website follows accessibility standards and includes night mode, high contrast, and large text options. It was created by Pablo Duarte Marín and José María López de Uralde as part of a project from the University of Alicante.
+Thank you for visiting the UA Health Library. We invite you to explore all the resources available to take care of your health and well-being.
