@@ -60,6 +60,10 @@
   </header>
 
   <main id="contenido" class="layout-dos-columnas" role="main" aria-label="Contenido principal">
+
+    <!-- ===========================
+        COLUMNA PRINCIPAL
+    ============================ -->
     <div class="col-principal">
 
       <section>
@@ -118,7 +122,9 @@
         <p lang="en">Welcome to the Health Bible website. Here you can find reliable information about diseases, treatments, and healthy living habits.</p>
       </section>
 
-      <!-- Práctica Multimedia -->
+      <!-- ===========================
+        PRÁCTICA MULTIMEDIA
+      ============================ -->
       <section id="practica-multimedia">
         <h2>Práctica Multimedia - Recorrido por la Biblioteca Salud UA</h2>
         <p>
@@ -132,8 +138,6 @@
             <iframe width="400" height="225"
               src="https://www.youtube.com/embed/XaEiBu275W8"
               title="Vídeo de la Biblioteca Salud UA - YouTube"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen></iframe>
             <figcaption>Versión desde YouTube</figcaption>
           </figure>
@@ -156,14 +160,41 @@
               <figcaption>Versión subtitulada desde Amara</figcaption>
             </figure>
 
-            <p class="visually-hidden">Subtítulos disponibles en español e inglés. Transcripción completa en español disponible en la sección de transcripciones.</p>
+            <p class="visually-hidden">Subtítulos disponibles en español e inglés.</p>
           </section>
 
         </div>
       </section>
 
-    </div>
+      <!-- ===========================
+        BLOG INCRUSTADO
+      ============================ -->
+      <section id="blog-embed-section">
+        <h2 id="blog-embed">Blog: Enciclopedia de la Salud</h2>
 
+        <div class="iframe-container" role="group" aria-label="Visor del blog">
+          <iframe
+            src="https://universidadpabloduarte-mvqca.wordpress.com"
+            title="Blog de la Enciclopedia de la Salud"
+            loading="lazy"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <p class="iframe-fallback">
+          Si no puedes ver el blog incrustado, haz clic aquí:
+          <a href="https://usabilidadaccesibilidad433.wordpress.com" target="_blank">
+            Ir al blog en nueva pestaña
+          </a>
+        </p>
+      </section>
+
+    </div> <!-- 🔥 AQUI SE CIERRA col-principal (ESTO FALTABA) -->
+
+    <!-- ===========================
+        BARRA LATERAL (ASIDE)
+    ============================ -->
     <aside class="col-lateral" aria-label="Enlaces y recursos">
       <nav>
         <h3>Accesos rápidos</h3>
@@ -218,6 +249,7 @@
         <p><a href="informes/DocumentoNoAccesible.pdf" target="_blank">Abrir PDF no accesible</a></p>
       </div>
     </section>
+
   </main>
 
   <footer>
@@ -228,4 +260,3 @@
   <script type="text/javascript" src="https://amara.org/embedder-iframe"></script>
 </body>
 </html>
-
