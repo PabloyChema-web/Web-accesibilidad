@@ -363,3 +363,42 @@ footer a .icono {
     order: 1;
   }
 }
+
+
+/* Responsive */
+@media (max-width: 768px) {
+    .opciones-estilo {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .opciones-estilo label {
+        text-align: center;
+    }
+}
+.iframe-container {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  padding-top: 56.25%; /* relación 16:9 */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fafafa;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.iframe-fallback {
+  text-align: center;
+  font-size: 0.95rem;
+  margin-top: 10px;
+}

@@ -60,8 +60,12 @@
   </header>
 
   <main id="contenido" class="layout-dos-columnas" role="main" aria-label="Contenido principal">
+
+    <!-- ===========================
+        COLUMNA PRINCIPAL
+    ============================ -->
     <div class="col-principal">
-      
+
       <section>
         <h2>Temas destacados</h2>
 
@@ -118,7 +122,9 @@
         <p lang="en">Welcome to the Health Bible website. Here you can find reliable information about diseases, treatments, and healthy living habits.</p>
       </section>
 
-      <!-- 🔽 NUEVA SECCIÓN: PRÁCTICA MULTIMEDIA -->
+      <!-- ===========================
+        PRÁCTICA MULTIMEDIA
+      ============================ -->
       <section id="practica-multimedia">
         <h2>Práctica Multimedia - Recorrido por la Biblioteca Salud UA</h2>
         <p>
@@ -127,29 +133,25 @@
         </p>
 
         <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
-          <!-- YouTube -->
+
           <figure style="max-width: 400px;">
             <iframe width="400" height="225"
               src="https://www.youtube.com/embed/XaEiBu275W8"
               title="Vídeo de la Biblioteca Salud UA - YouTube"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen></iframe>
             <figcaption>Versión desde YouTube</figcaption>
           </figure>
 
-          <!-- HTML5 -->
           <figure style="max-width: 400px;">
             <video width="400" height="225" controls>
               <source src="videos/video.mp4" type="video/mp4">
-              <track src="videos/subtitulos_es.vtt" kind="subtitles" srclang="es" label="Español" default>
+              <track src="videos/subtitulos_es.vtt" kind="subtitles" srclang="es" label="Español" >
               <track src="videos/subtitulos_ingles.vtt" kind="subtitles" srclang="en" label="English">
               Tu navegador no soporta el elemento vídeo.
             </video>
             <figcaption>Versión HTML5 local con subtítulos</figcaption>
           </figure>
 
-          <!-- Amara -->
           <section id="video-amara-region" role="region" aria-labelledby="video-amara-title">
             <h3 id="video-amara-title">Video amara de biblioteca de la salud UA</h3>
 
@@ -158,22 +160,80 @@
               <figcaption>Versión subtitulada desde Amara</figcaption>
             </figure>
 
-            <p class="visually-hidden">Subtítulos disponibles en español e inglés. Transcripción completa en español disponible en la sección de transcripciones.</p>
+            <p class="visually-hidden">Subtítulos disponibles en español e inglés.</p>
           </section>
 
-        </section>
+        </div>
+      </section>
 
-    </div>
+      <!-- ===========================
+        BLOG INCRUSTADO
+      ============================ -->
+      <section id="blog-embed-section">
+        <h2 id="blog-embed">Blog: Enciclopedia de la Salud</h2>
 
+        <div class="iframe-container" role="group" aria-label="Visor del blog">
+          <iframe
+            src="https://universidadpabloduarte-mvqca.wordpress.com"
+            title="Blog de la Enciclopedia de la Salud"
+            loading="lazy"
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        </div>
+
+        <p class="iframe-fallback">
+          Si no puedes ver el blog incrustado, haz clic aquí:
+          <a href="https://usabilidadaccesibilidad433.wordpress.com" target="_blank">
+            Ir al blog en nueva pestaña
+          </a>
+        </p>
+      </section>
+
+    </div> <!-- 🔥 AQUI SE CIERRA col-principal (ESTO FALTABA) -->
+
+    <!-- ===========================
+        BARRA LATERAL (ASIDE)
+    ============================ -->
     <aside class="col-lateral" aria-label="Enlaces y recursos">
       <nav>
         <h3>Accesos rápidos</h3>
         <ul>
           <li><a href="index.html">Inicio</a></li>
+          <li><a href="letras/intermedio-letra-a.html">Artículos por A</a></li>
           <li><a href="formularios/contacto.html">Contacto</a></li>
-          <li><a href="declaracion-accesibilidad.html">Accesibilidad</a></li>
+          <li><a href="declaracion-accesibilidad.html">Declaración de accesibilidad</a></li>
         </ul>
       </nav>
+
+      <section aria-labelledby="recursos-heading">
+        <h3 id="recursos-heading">Recursos destacados</h3>
+        <ul>
+          <li><a href="tabla y mapas/enfermedades.html">Tabla de enfermedades comunes</a></li>
+          <li><a href="tabla y mapas/vitaminas.html">Tabla de vitaminas esenciales</a></li>
+          <li><a href="tabla y mapas/mapa-cuerpo.html">Mapa del cuerpo humano</a></li>
+          <li><a href="tabla y mapas/mapa-alimentos.html">Mapa de alimentos saludables</a></li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="herramientas-heading">
+        <h3 id="herramientas-heading">Herramientas</h3>
+        <form action="formularios/buscador.html" method="get" role="search" aria-label="Buscador del sitio">
+          <label for="sidebar-search" class="visually-hidden">Buscar en el sitio</label>
+          <input id="sidebar-search" name="q" type="search" placeholder="Buscar artículos..." />
+          <button type="submit">Buscar</button>
+        </form>
+      </section>
+
+      <section aria-labelledby="suscribe-heading">
+        <h3 id="suscribe-heading">Suscríbete</h3>
+        <p>Recibe novedades y recursos por correo.</p>
+        <form action="formularios/registro-usuario.html" method="get" aria-label="Formulario de suscripción">
+          <label for="sidebar-email" class="visually-hidden">Correo electrónico</label>
+          <input id="sidebar-email" name="email" type="email" placeholder="tu@correo.com" />
+          <button type="submit">Suscribirse</button>
+        </form>
+      </section>
     </aside>
 
     <section id="documentos" aria-labelledby="docs-title">
@@ -189,12 +249,14 @@
         <p><a href="informes/DocumentoNoAccesible.pdf" target="_blank">Abrir PDF no accesible</a></p>
       </div>
     </section>
+
   </main>
 
   <footer>
     <p>© 2025 Biblioteca Salud UA — <abbr title="Universidad de Alicante">UA</abbr></p>
     <address>Sitio web creado por Pablo Duarte Marín y José María López de Uralde</address>
   </footer>
+
   <script type="text/javascript" src="https://amara.org/embedder-iframe"></script>
 </body>
 </html>
