@@ -1,6 +1,0 @@
-URL YOUTUBE: https://www.youtube.com/embed/XaEiBu275W8
-URL Amara: http://www.youtube.com/watch?v=XaEiBu275W8
-
-Se crea una carpeta llamada videos que contiene los dos vtt de subtitulos, y tres archivos txt con 
-
-En El index se ha añadido un apartado mediante un section en el cual se insertan los tres tipos de videos
