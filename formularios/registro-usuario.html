@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/estilos.css" title="Estilo principal" />
+  <link rel="alternate stylesheet" href="../css/noche.css" title="Modo noche">
+  <link rel="alternate stylesheet" href="../css/contraste_alto.css" title="Alto contraste">
+  <link rel="alternate stylesheet" href="../css/texto_grande.css" title="Texto grande">
+  <link rel="alternate stylesheet" href="../css/accesible.css" title="Accesible (Texto grande + Alto contraste)">
+  <link rel="stylesheet" href="../css/print.css" media="print">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de usuario — Biblia de la Salud</title>
+  <meta name="description" content="Formulario de registro para nuevos usuarios de la Biblia de la Salud.">
+</head>
+
+<body>
+  <a href="#contenido" class="skip-link">Saltar al contenido principal</a>
+
+
+<header>
+  <h1>Registro de usuario</h1>
+  <nav aria-label="Navegación principal">
+    <ul>
+      <li><a href="../index.html"><span class="icono">🏠</span>Inicio</a></li>
+      <li><a href="../formularios/buscador.html"><span class="icono">🔍</span>Buscador</a></li>
+      <li><a href="../formularios/contacto.html"><span class="icono">📧</span>Contacto</a></li>
+    </ul>
+  </nav>
+
+</header>
+
+<nav aria-label="Migas de pan">
+  <ul>
+    <li><a href="../index.html">Inicio</a></li>
+    <li><a href="../formularios/registro-usuario.html">Formularios</a></li>
+    <li aria-current="page">Registro de usuario</li>
+  </ul>
+</nav>
+
+<main id="contenido">
+  <section aria-labelledby="titulo-form">
+    <h2 id="titulo-form">Formulario de registro</h2>
+    <p>Los campos marcados con <strong>*</strong> son obligatorios.</p>
+
+    <form action="respuesta-registro.html" method="get">
+      
+      <fieldset>
+        <legend>Datos personales</legend>
+
+        <label for="nombre">Nombre completo: <strong>*</strong></label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej: Ana López" required aria-required="true"><br><br>
+
+        <label for="email">Correo electrónico: <strong>*</strong></label><br>
+        <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required aria-required="true"><br><br>
+
+        <label for="fecha">Fecha de nacimiento:</label><br>
+        <input type="date" id="fecha" name="fecha" min="1900-01-01" max="2025-12-31"><br><br>
+
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" min="1" max="120" step="1" placeholder="Ej: 30"><br><br>
+
+        <label for="color">Color favorito:</label><br>
+        <input type="color" id="color" name="color"><br><br>
+
+        <label for="nivel-salud">Nivel de salud (0-10):</label><br>
+        <input type="range" id="nivel-salud" name="nivel-salud" min="0" max="10" step="1"><br><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Datos de cuenta</legend>
+
+        <label for="usuario">Nombre de usuario (solo letras y números, mínimo 5 caracteres): <strong>*</strong></label><br>
+        <input type="text" id="usuario" name="usuario" pattern="[A-Za-z0-9]{5,}" placeholder="Ej: usuario123" required aria-required="true"><br><br>
+
+        <button type="submit">Registrar</button>
+      </fieldset>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p><a href="../index.html">Volver al inicio</a></p>
+  <p>© 2025 Biblia de la Salud — <a href="../declaracion-accesibilidad.html">Declaración de accesibilidad</a></p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/estilos.css" title="Estilo principal" />
+  <link rel="alternate stylesheet" href="../css/noche.css" title="Modo noche">
+  <link rel="alternate stylesheet" href="../css/contraste_alto.css" title="Alto contraste">
+  <link rel="alternate stylesheet" href="../css/texto_grande.css" title="Texto grande">
+  <link rel="alternate stylesheet" href="../css/accesible.css" title="Accesible (Texto grande + Alto contraste)">
+  <link rel="stylesheet" href="../css/print.css" media="print">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de artículos — Biblia de la Salud</title>
+  <meta name="description" content="Formulario de búsqueda avanzada de artículos sobre salud. Permite buscar por síntomas, causas y tratamientos.">
+</head>
+
+<body>
+  <a href="#contenido" class="skip-link">Saltar al contenido principal</a>
+
+<header>
+  <h1>Buscador de artículos</h1>
+    <nav aria-label="Navegación principal">
+      <ul>
+        <li><a href="../index.html"><span class="icono" aria-hidden="true">&#x1F3E0;</span> Inicio</a></li> 
+        <li><a href="../formularios/contacto.html"><span class="icono" aria-hidden="true">&#x1F4E7;</span> Contacto</a></li> 
+      </ul>
+    </nav>
+
+
+</header>
+
+<nav aria-label="Migas de pan">
+  <ul>
+    <li><a href="../index.html">Inicio</a></li>
+    <li aria-current="page">Formulario buscador</li>
+  </ul>
+</nav>
+
+<main id="contenido">
+  <section aria-labelledby="titulo-buscador">
+    <h2 id="titulo-buscador">Formulario de búsqueda avanzada</h2>
+    <p>Los campos marcados con <strong>*</strong> son obligatorios.</p>
+
+    <form action="respuesta-busqueda.html" method="get">
+
+      <fieldset>
+        <legend>Datos principales</legend>
+        <p>
+          <label for="descripcion">Descripción: <strong>*</strong></label><br>
+          <input type="text" id="descripcion" name="descripcion" required aria-required="true" placeholder="Ej: Dolor de cabeza persistente">
+        </p>
+
+        <p>
+          <label for="causas">Causas:</label><br>
+          <input type="text" id="causas" name="causas" placeholder="Ej: Estrés, infección, deshidratación">
+        </p>
+
+        <p>
+          <label for="tratamiento">Tratamiento:</label><br>
+          <input type="text" id="tratamiento" name="tratamiento" placeholder="Ej: Reposo, medicación, terapia física">
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Síntomas</legend>
+        <p>
+          <label><input type="checkbox" name="sintomas" value="fiebre"> Fiebre</label><br>
+          <label><input type="checkbox" name="sintomas" value="vomito"> Vómito</label><br>
+          <label><input type="checkbox" name="sintomas" value="diarrea"> Diarrea</label><br>
+          <label><input type="checkbox" name="sintomas" value="dolor-muscular"> Dolor muscular</label>
+        </p>
+
+        <p>
+          <label for="operador-sintomas">Combinar síntomas:</label>
+          <select id="operador-sintomas" name="operador-sintomas">
+            <option value="AND">Y</option>
+            <option value="OR">O</option>
+          </select>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Pruebas y exámenes</legend>
+        <p>
+          <label><input type="checkbox" name="pruebas" value="analisis-sangre"> Análisis de sangre</label><br>
+          <label><input type="checkbox" name="pruebas" value="ecografia"> Ecografía</label><br>
+          <label><input type="checkbox" name="pruebas" value="radiografia"> Radiografía</label><br>
+          <label><input type="checkbox" name="pruebas" value="tomografia"> Tomografía</label><br>
+          <label><input type="checkbox" name="pruebas" value="ultrasonido"> Ultrasonido</label>
+        </p>
+
+        <p>
+          <label for="operador-pruebas">Combinar pruebas:</label>
+          <select id="operador-pruebas" name="operador-pruebas">
+            <option value="AND">Y</option>
+            <option value="OR">O</option>
+          </select>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Expectativas del tratamiento</legend>
+        <p>
+          <label><input type="radio" name="expectativas" value="negativas"> Negativas</label>
+          <label><input type="radio" name="expectativas" value="indefinidas"> Indefinidas</label>
+          <label><input type="radio" name="expectativas" value="positivas"> Positivas</label>
+        </p>
+      </fieldset>
+
+      <p>
+        <button type="submit">Buscar artículos</button>
+      </p>
+
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p><a href="../index.html">Volver al inicio</a></p>
+  <p>© 2025 Biblia de la Salud — <a href="../declaracion-accesibilidad.html">Declaración de accesibilidad</a></p>
+</footer>
+
+</body>
+</html>
